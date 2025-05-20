@@ -11,9 +11,9 @@ sys.stderr.reconfigure(line_buffering=True)
 
 # Default fallback architectures
 fallback_archs = [
-    "-gencode=arch=compute_75,code=sm_75",
-    "-gencode=arch=compute_80,code=sm_80",
+    "-gencode=arch=compute_86,code=sm_86",
     "-gencode=arch=compute_89,code=sm_89",
+    "-gencode=arch=compute_120,code=sm_120"
 ]
 
 nvcc_args = [
